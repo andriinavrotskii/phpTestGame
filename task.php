@@ -16,6 +16,8 @@ foreach($vehicles as $vehicle) {
         case 'bmw':
             $vehicle->move();
             $vehicle->musicOn();
+            $vehicle->listenToMusic();
+            $vehicle->musicOff();
             break;
         case 'boat':
             $vehicle->move();
