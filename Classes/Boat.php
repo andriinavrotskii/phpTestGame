@@ -1,9 +1,9 @@
 <?php
 
-namespace Classes;
+namespace Task\Classes;
 
-use Classes\Interfaces\BoatInterface;
-use Classes\VehicleBase;
+use Task\Classes\Interfaces\BoatInterface;
+use Task\Classes\VehicleBase;
 
 
 class Boat extends VehicleBase implements BoatInterface

@@ -1,9 +1,9 @@
 <?php
 
-namespace Classes;
+namespace Task\Classes;
 
-use Classes\Interfaces\CarInterface;
-use Classes\VehicleBase;
+use Task\Classes\Interfaces\CarInterface;
+use Task\Classes\VehicleBase;
 
 
 class Bmw extends VehicleBase implements CarInterface

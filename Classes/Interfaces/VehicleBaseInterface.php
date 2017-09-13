@@ -1,5 +1,5 @@
 <?php 
-namespace Classes\Interfaces;
+namespace Task\Classes\Interfaces;
 
 interface VehicleBaseInterface
 {

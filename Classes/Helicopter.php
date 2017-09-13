@@ -1,9 +1,9 @@
 <?php
 
-namespace Classes;
+namespace Task\Classes;
 
-use Classes\Interfaces\HelicopterInterface;
-use Classes\VehicleBase;
+use Task\Classes\Interfaces\HelicopterInterface;
+use Task\Classes\VehicleBase;
 
 
 class Helicopter extends VehicleBase implements HelicopterInterface

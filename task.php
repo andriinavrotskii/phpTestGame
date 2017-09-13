@@ -1,7 +1,7 @@
 <?php
 namespace Task;
 
-use Classes\Vehicle;
+use Task\Classes\Vehicle;
 
 $vehicles = [
     new Vehicle('bmw'), 

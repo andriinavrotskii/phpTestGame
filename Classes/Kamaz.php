@@ -1,9 +1,9 @@
 <?php
 
-namespace Classes;
+namespace Task\Classes;
 
-use Classes\Interfaces\TruckInterface;
-use Classes\VehicleBase;
+use Task\Classes\Interfaces\TruckInterface;
+use Task\Classes\VehicleBase;
 
 
 class Kamaz extends VehicleBase implements TruckInterface

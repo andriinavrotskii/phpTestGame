@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes;
+namespace Task\Classes;
 
 class VehicleBase
 {

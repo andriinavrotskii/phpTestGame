@@ -1,7 +1,7 @@
 <?php 
-namespace Classes\Interfaces;
+namespace Task\Classes\Interfaces;
 
-use Classes\Interfaces\VehicleBaseInterface;
+use Task\Classes\Interfaces\VehicleBaseInterface;
 
 interface HelicopterInterface extends VehicleBaseInterface
 {
