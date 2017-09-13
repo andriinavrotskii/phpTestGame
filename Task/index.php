@@ -43,9 +43,14 @@ class Vehicle
 		echo $this->name . ' refuel' . $object;
 	}
 }
+
 $vehicles = [
-    new Vehicle('bmw'), new Vehicle('boat'), new Vehicle('helicopter'), new Vehicle('kamaz')
+    new Vehicle('bmw'), 
+    new Vehicle('boat'), 
+    new Vehicle('helicopter'), 
+    new Vehicle('kamaz')
 ];
+
 foreach($vehicles as $vehicle) {
     switch($vehicle->name)
     {

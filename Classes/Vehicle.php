@@ -8,18 +8,30 @@ class Vehicle
 
     public function __construct($name)
     {
+        echo "Vehicle - $name \n";
         switch($name)
         {
-            case 'car':
-                $this->vehicle = new Car();
+            case 'bmw':
+                $this->vehicle = new Bmw($name);
                 break;
+            /*
+            default:
+                throw new \InvalidArgumentException("{$name} is not a valid vehicle");
+            */
         }
     }
+
 
     public function __call($method, $arguments)
     {
         if (method_exists($this->vehicle, $method)) {
-            return $this->vehicle->$method($arguments);
-        }
+            $reflectionMethod = new \ReflectionMethod(get_class($this->vehicle), $method);
+            return $reflectionMethod->invokeArgs($this->vehicle, $arguments);
+        } 
+        /*
+            else {
+                throw new \InvalidArgumentException("{$method} is not exist");
+            }
+        */
     }
 }

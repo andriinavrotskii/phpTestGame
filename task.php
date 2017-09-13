@@ -2,5 +2,9 @@
 
 use Classes\Vehicle;
 
-$car = new Vehicle('car');
-$car->move();
+$vehicle = new Vehicle('bmw');
+$vehicle->fly();
+$vehicle->move();
+$vehicle->musicOn();
+$vehicle->stop();
+$vehicle->refuel('gas');
