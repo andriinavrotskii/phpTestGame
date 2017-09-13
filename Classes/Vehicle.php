@@ -8,11 +8,13 @@ class Vehicle
 
     public function __construct($name)
     {
-        echo "Vehicle - $name \n";
         switch($name)
         {
             case 'bmw':
                 $this->vehicle = new Bmw($name);
+                break;
+            case 'boat':
+                $this->vehicle = new Boat($name);
                 break;
             /*
             default:

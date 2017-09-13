@@ -1,7 +1,9 @@
 <?php 
 namespace Classes\Interfaces;
 
-interface CarInterface
+use Classes\Interfaces\VehicleBaseInterface;
+
+interface CarInterface extends VehicleBaseInterface
 {
     public function move();
     public function musicOn();

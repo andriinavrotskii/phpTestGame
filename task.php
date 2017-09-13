@@ -10,7 +10,7 @@ $vehicles = [
 ];
 
 foreach($vehicles as $vehicle) {
-    switch($vehicle->name)
+    switch($vehicle->getName())
     {
         case 'bmw':
             $vehicle->move();
