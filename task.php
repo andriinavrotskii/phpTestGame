@@ -1,4 +1,5 @@
 <?php
+namespace Task;
 
 use Classes\Vehicle;
 
