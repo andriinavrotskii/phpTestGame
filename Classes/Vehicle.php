@@ -19,6 +19,9 @@ class Vehicle
             case 'helicopter':
                 $this->vehicle = new Helicopter($name);
                 break;
+            case 'kamaz':
+                $this->vehicle = new Kamaz($name);
+                break;
             /*
             default:
                 throw new \InvalidArgumentException("{$name} is not a valid vehicle");

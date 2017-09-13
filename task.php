@@ -28,6 +28,7 @@ foreach($vehicles as $vehicle) {
         case 'kamaz':
             $vehicle->move();
             $vehicle->stop();
+            $vehicle->load('sand');
             $vehicle->emptyLoads();
             break;
     }
