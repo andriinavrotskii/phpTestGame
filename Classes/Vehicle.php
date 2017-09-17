@@ -22,10 +22,10 @@ class Vehicle
             case 'kamaz':
                 $this->vehicle = new Kamaz($name);
                 break;
-            /*
+            
             default:
                 throw new \InvalidArgumentException("{$name} is not a valid vehicle");
-            */
+            
         }
     }
 
@@ -36,10 +36,9 @@ class Vehicle
             $reflectionMethod = new \ReflectionMethod(get_class($this->vehicle), $method);
             return $reflectionMethod->invokeArgs($this->vehicle, $arguments);
         } 
-        /*
-            else {
-                throw new \InvalidArgumentException("{$method} is not exist");
-            }
-        */
+        
+        else {
+            throw new \InvalidArgumentException("{$method} is not exist");
+        }
     }
 }
