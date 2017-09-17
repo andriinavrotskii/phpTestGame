@@ -1,9 +1,9 @@
 <?php
 
-namespace Task\Classes;
+namespace PhpTestGame\Classes;
 
-use Task\Classes\Interfaces\HelicopterInterface;
-use Task\Classes\VehicleBase;
+use PhpTestGame\Classes\Interfaces\HelicopterInterface;
+use PhpTestGame\Classes\VehicleBase;
 
 
 class Helicopter extends VehicleBase implements HelicopterInterface

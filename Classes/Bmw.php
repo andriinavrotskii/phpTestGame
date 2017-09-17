@@ -1,9 +1,9 @@
 <?php
 
-namespace Task\Classes;
+namespace PhpTestGame\Classes;
 
-use Task\Classes\Interfaces\CarInterface;
-use Task\Classes\VehicleBase;
+use PhpTestGame\Classes\Interfaces\CarInterface;
+use PhpTestGame\Classes\VehicleBase;
 
 
 class Bmw extends VehicleBase implements CarInterface

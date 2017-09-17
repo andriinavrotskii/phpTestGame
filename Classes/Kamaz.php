@@ -1,9 +1,9 @@
 <?php
 
-namespace Task\Classes;
+namespace PhpTestGame\Classes;
 
-use Task\Classes\Interfaces\TruckInterface;
-use Task\Classes\VehicleBase;
+use PhpTestGame\Classes\Interfaces\TruckInterface;
+use PhpTestGame\Classes\VehicleBase;
 
 
 class Kamaz extends VehicleBase implements TruckInterface

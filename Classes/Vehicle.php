@@ -1,6 +1,6 @@
 <?php
 
-namespace Task\Classes;
+namespace PhpTestGame\Classes;
 
 class Vehicle
 {

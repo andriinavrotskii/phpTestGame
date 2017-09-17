@@ -1,7 +1,7 @@
 <?php 
-namespace Task\Classes\Interfaces;
+namespace PhpTestGame\Classes\Interfaces;
 
-use Task\Classes\Interfaces\VehicleBaseInterface;
+use PhpTestGame\Classes\Interfaces\VehicleBaseInterface;
 
 interface TruckInterface extends VehicleBaseInterface
 {

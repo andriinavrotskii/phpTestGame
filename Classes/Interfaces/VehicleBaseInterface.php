@@ -1,5 +1,5 @@
 <?php 
-namespace Task\Classes\Interfaces;
+namespace PhpTestGame\Classes\Interfaces;
 
 interface VehicleBaseInterface
 {

@@ -2,7 +2,7 @@
 
 function autoloader($class)
 {
-    $prefix = 'Task\\';
+    $prefix = 'PhpTestGame\\';
     $base_dir = __DIR__ . DIRECTORY_SEPARATOR;
 
     $len = strlen($prefix);

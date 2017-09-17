@@ -1,9 +1,9 @@
 <?php
 
-namespace Task\Classes;
+namespace PhpTestGame\Classes;
 
-use Task\Classes\Interfaces\BoatInterface;
-use Task\Classes\VehicleBase;
+use PhpTestGame\Classes\Interfaces\BoatInterface;
+use PhpTestGame\Classes\VehicleBase;
 
 
 class Boat extends VehicleBase implements BoatInterface

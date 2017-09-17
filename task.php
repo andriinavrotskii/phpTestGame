@@ -1,7 +1,7 @@
 <?php
-namespace Task;
+namespace PhpTestGame;
 
-use Task\Classes\Vehicle;
+use PhpTestGame\Classes\Vehicle;
 
 try {
     $vehicles = [
