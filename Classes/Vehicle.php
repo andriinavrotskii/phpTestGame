@@ -2,9 +2,11 @@
 
 namespace PhpTestGame\Classes;
 
+
 class Vehicle
 {
     private $vehicle;
+
 
     public function __construct($className)
     {

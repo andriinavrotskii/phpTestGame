@@ -1,7 +1,9 @@
 <?php 
+
 namespace PhpTestGame\Classes\Interfaces;
 
 use PhpTestGame\Classes\Interfaces\VehicleBaseInterface;
+
 
 interface CarInterface extends VehicleBaseInterface
 {

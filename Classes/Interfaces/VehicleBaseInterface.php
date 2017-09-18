@@ -1,5 +1,7 @@
 <?php 
+
 namespace PhpTestGame\Classes\Interfaces;
+
 
 interface VehicleBaseInterface
 {

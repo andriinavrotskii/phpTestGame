@@ -2,6 +2,7 @@
 
 namespace PhpTestGame\Classes;
 
+
 class VehicleBase
 {
     protected $name;
