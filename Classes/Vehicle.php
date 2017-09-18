@@ -6,26 +6,14 @@ class Vehicle
 {
     private $vehicle;
 
-    public function __construct($name)
+    public function __construct($className)
     {
-        switch($name)
-        {
-            case 'bmw':
-                $this->vehicle = new Bmw($name);
-                break;
-            case 'boat':
-                $this->vehicle = new Boat($name);
-                break;
-            case 'helicopter':
-                $this->vehicle = new Helicopter($name);
-                break;
-            case 'kamaz':
-                $this->vehicle = new Kamaz($name);
-                break;
-            
-            default:
-                throw new \InvalidArgumentException("{$name} is not a valid vehicle");
-            
+        $classNameFull = __NAMESPACE__ . DIRECTORY_SEPARATOR . ucfirst(strtolower($className));
+    
+        if (class_exists($classNameFull)) {
+            $this->vehicle = new $classNameFull();
+        } else {
+            throw new \InvalidArgumentException("{$className} is not a valid vehicle");
         }
     }
 
