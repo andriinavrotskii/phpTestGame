@@ -8,8 +8,8 @@ class Vehicle
 
     public function __construct($className)
     {
-        $classNameFull = __NAMESPACE__ . DIRECTORY_SEPARATOR . ucfirst(strtolower($className));
-    
+        $classNameFull = __NAMESPACE__ . '\\' . ucfirst(strtolower($className));
+
         if (class_exists($classNameFull)) {
             $this->vehicle = new $classNameFull();
         } else {
