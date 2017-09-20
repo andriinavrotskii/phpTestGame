@@ -26,7 +26,7 @@ abstract class AbstractVehicle
     }
 
 
-    public function refuel($fuelName) 
+    public function refuel(string $fuelName) 
     {
         echo $this->name . ' refuel ' . $fuelName;
     }

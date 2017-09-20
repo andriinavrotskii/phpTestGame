@@ -18,7 +18,7 @@ class Kamaz extends AbstractVehicle implements TruckInterface
     }
 
 
-    public function load($loadName) 
+    public function load(string $loadName) 
     {
         $this->loadName = $loadName;
         echo $this->name . ' load ' . $this->loadName;
