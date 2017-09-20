@@ -8,7 +8,7 @@ class Vehicle
     private $vehicle;
 
 
-    public function __construct($className)
+    public function __construct(string $className)
     {
         $classNameFull = __NAMESPACE__ . '\\' . ucfirst(strtolower($className));
 
@@ -20,7 +20,7 @@ class Vehicle
     }
 
 
-    public function __call($method, $arguments)
+    public function __call(string $method, array $arguments)
     {
         if (method_exists($this->vehicle, $method)) {
             $reflectionMethod = new \ReflectionMethod(get_class($this->vehicle), $method);
