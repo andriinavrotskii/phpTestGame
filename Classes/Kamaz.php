@@ -3,10 +3,10 @@
 namespace PhpTestGame\Classes;
 
 use PhpTestGame\Classes\Interfaces\TruckInterface;
-use PhpTestGame\Classes\VehicleBase;
+use PhpTestGame\Classes\AbstractVehicle;
 
 
-class Kamaz extends VehicleBase implements TruckInterface
+class Kamaz extends AbstractVehicle implements TruckInterface
 {
     private $loadName;
 

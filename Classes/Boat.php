@@ -3,10 +3,10 @@
 namespace PhpTestGame\Classes;
 
 use PhpTestGame\Classes\Interfaces\BoatInterface;
-use PhpTestGame\Classes\VehicleBase;
+use PhpTestGame\Classes\AbstractVehicle;
 
 
-class Boat extends VehicleBase implements BoatInterface
+class Boat extends AbstractVehicle implements BoatInterface
 {
     public function swim()
     {

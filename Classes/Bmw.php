@@ -3,10 +3,10 @@
 namespace PhpTestGame\Classes;
 
 use PhpTestGame\Classes\Interfaces\CarInterface;
-use PhpTestGame\Classes\VehicleBase;
+use PhpTestGame\Classes\AbstractVehicle;
 
 
-class Bmw extends VehicleBase implements CarInterface
+class Bmw extends AbstractVehicle implements CarInterface
 {
     private $musicIsOn = false;
 

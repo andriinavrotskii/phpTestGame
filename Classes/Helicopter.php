@@ -3,10 +3,10 @@
 namespace PhpTestGame\Classes;
 
 use PhpTestGame\Classes\Interfaces\HelicopterInterface;
-use PhpTestGame\Classes\VehicleBase;
+use PhpTestGame\Classes\AbstractVehicle;
 
 
-class Helicopter extends VehicleBase implements HelicopterInterface
+class Helicopter extends AbstractVehicle implements HelicopterInterface
 {
     public function takeOff()
     {

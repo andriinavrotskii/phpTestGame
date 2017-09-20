@@ -3,7 +3,7 @@
 namespace PhpTestGame\Classes;
 
 
-class VehicleBase
+abstract class AbstractVehicle
 {
     protected $name;
 
